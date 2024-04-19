@@ -1,0 +1,35 @@
+.card {
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.card-header {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    background-color:white !important;
+}
+
+.type{
+    opacity:0.5;
+}
+
+.button{
+    border-radius: 20px; /* Make the button oval-shaped */
+    padding: 5px 75px; /*Adjust padding as needed */
+    color: white; /* Example text color */
+    border: none; /* Remove border */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-body{
+    text-align:left;
+
+}
